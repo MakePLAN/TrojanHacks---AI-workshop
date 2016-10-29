@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Pokemon Chat Example</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME  CSS -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <script type="text/javascript" src="api.ai.min.js"></script>
+    <script type="text/javascript" src="api.ai.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row pad-top pad-bottom">
+
+
+            <div class=" col-lg-6 col-md-6 col-sm-6">
+                <div class="chat-box-div">
+                    <div class="chat-box-head">
+                        Pokedex
+                            
+                    </div>
+                    <div id="chatBody" class="panel-body chat-box-main">
+
+                        
+
+                        
+                       
+                    </div>
+                    <div class="chat-box-footer">
+                        <div class="input-group">
+                            <input id="textField" type="text" class="form-control" placeholder="Enter Text Here...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-info" type="button" onclick="sendButtonPressed()">SEND</button>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- USING SCRIPTS BELOW TO REDUCE THE LOAD TIME -->
+    <!-- CORE JQUERY SCRIPTS FILE -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- CORE BOOTSTRAP SCRIPTS  FILE -->
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
